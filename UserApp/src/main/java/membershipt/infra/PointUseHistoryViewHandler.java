@@ -31,7 +31,7 @@ public class PointUseHistoryViewHandler {
             pointUseHistory.setAgreementId(
                 approvedToUsePoints.getAgreementId()
             );
-            pointUseHistory.setUsePoint(approvedToUsePoints.getUserPoint());
+            pointUseHistory.setUsePoint(approvedToUsePoints.getUsePoint());
             pointUseHistory.setUseDate(approvedToUsePoints.getUseDate());
             pointUseHistory.setUsePointStatus(
                 approvedToUsePoints.getUsePointStatus()
