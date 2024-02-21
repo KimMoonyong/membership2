@@ -27,6 +27,7 @@ public class BenefitsListViewHandler {
             // view 객체 생성
             BenefitsList benefitsList = new BenefitsList();
             // view 객체에 이벤트의 Value 를 set 함
+            benefitsList.setId(benefitsRegistered.getId());
             benefitsList.setUserId(benefitsRegistered.getUserId());
             benefitsList.setUserPoint(
                 String.valueOf(benefitsRegistered.getUserPoint())
